@@ -1,0 +1,1 @@
+{"version":3,"file":"register.component.d.ts","sources":["register.component.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;AACA;;;AACA","sourcesContent":["import { FormioAuthService } from '../auth.service';\nexport declare class FormioAuthRegisterComponent {\n    service: FormioAuthService;\n    constructor(service: FormioAuthService);\n}\n"]}
