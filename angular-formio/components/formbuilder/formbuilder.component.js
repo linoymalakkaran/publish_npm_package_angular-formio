@@ -208,6 +208,18 @@ var FormBuilderComponent = /** @class */ (function () {
          */
         function (instance) { return _this.setInstance(instance); }));
     };
+    FormBuilderComponent.prototype.setBreadCrumbsDisplay = /**
+     * @param {?} display
+     * @return {?}
+     */
+    function (display,selectedBreadCrumbsTpl) {
+        var _this = this;
+        return this.builder.setBreadCrumbsDisplay(display,selectedBreadCrumbsTpl).then((/**
+         * @param {?} instance
+         * @return {?}
+         */
+        function (instance) { return _this.setInstance(instance); }));
+    };
     /**
      * @param {?} form
      * @return {?}
@@ -222,15 +234,36 @@ var FormBuilderComponent = /** @class */ (function () {
             return;
         }
         if (this.builder) {
+            var $this_breadcrumbs = this;
+            debugger;
             return this.setDisplay(form.display).then((/**
              * @return {?}
              */
+            //fn added by linoy
             function () {
                 _this.builder.form = form;
                 _this.builder.instance.form = form;
                 return _this.builder.instance;
-            }));
-        }
+                }));
+            }
+
+        // if (this.builder) {
+        //     var $this_breadcrumbs = this;
+        //     debugger;
+        //     return this.setDisplay(form.display).then((/**
+        //      * @return {?}
+        //      */
+        //     //fn added by linoy
+        //     function(){
+        //       return  $this_breadcrumbs.setBreadCrumbsDisplay(form.display,form.selectedBreadCrumbsTpl).then((
+        //             function () {
+        //                     _this.builder.form = form;
+        //                     _this.builder.instance.form = form;
+        //                     return _this.builder.instance;
+        //                  }));
+        //             }
+        //         ))
+        //     }
         return this.rebuildForm(form);
     };
     /**

@@ -27,6 +27,8 @@ export declare class FormBuilderComponent implements OnInit, OnChanges, OnDestro
     ngOnInit(): void;
     setInstance(instance: any): any;
     setDisplay(display: String): any;
+    //added new fn by linoy
+    setBreadCrumbsDisplay(display: String,selectedBreadCrumbsTpl: object): any;
     buildForm(form: any): any;
     rebuildForm(form: any, options?: object): Promise<any>;
     ngOnChanges(changes: any): void;

@@ -1340,6 +1340,7 @@
          * @return {?}
          */
         function (display) {
+            alert('hi');
             var _this = this;
             return this.builder.setDisplay(display).then((/**
              * @param {?} instance
@@ -1347,6 +1348,18 @@
              */
             function (instance) { return _this.setInstance(instance); }));
         };
+        FormBuilderComponent.prototype.setBreadCrumbsDisplay = /**
+        * @param {?} display
+        * @return {?}
+        */
+       function (display,selectedBreadCrumbsTpl) {
+           var _this = this;
+           return this.builder.setBreadCrumbsDisplay(display,selectedBreadCrumbsTpl).then((/**
+            * @param {?} instance
+            * @return {?}
+            */
+           function (instance) { return _this.setInstance(instance); }));
+       };
         /**
          * @param {?} form
          * @return {?}
@@ -1360,6 +1373,7 @@
             if (!form || !this.builderElement || !this.builderElement.nativeElement) {
                 return;
             }
+            alert('hi');
             if (this.builder) {
                 return this.setDisplay(form.display).then((/**
                  * @return {?}

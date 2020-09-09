@@ -211,6 +211,18 @@ var FormBuilderComponent = /** @class */ (function () {
          */
         function (instance) { return _this.setInstance(instance); }));
     };
+    FormBuilderComponent.prototype.setBreadCrumbsDisplay = /**
+        * @param {?} display
+        * @return {?}
+        */
+       function (display,selectedBreadCrumbsTpl) {
+           var _this = this;
+           return this.builder.setBreadCrumbsDisplay(display,selectedBreadCrumbsTpl).then((/**
+            * @param {?} instance
+            * @return {?}
+            */
+           function (instance) { return _this.setInstance(instance); }));
+       };
     /**
      * @param {?} form
      * @return {?}
