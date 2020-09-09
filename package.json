@@ -1,0 +1,22 @@
+{
+  "name": "angular-formio-master-adports",
+  "version": "1.0.0",
+  "description": "angular-formio-master-custom",
+  "main": "index.js",
+  "scripts": {
+    "test": "no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linoymalakkaran/publish_npm_package_angular-formio.git"
+  },
+  "keywords": [
+    "key-word"
+  ],
+  "author": "Linoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linoymalakkaran/publish_npm_package_angular-formio/issues"
+  },
+  "homepage": "https://github.com/linoymalakkaran/publish_npm_package_angular-formio#readme"
+}
