@@ -27,7 +27,7 @@ var __assign = (this && this.__assign) || function () {
  * Generated from: custom-component/create-custom-component.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-import { Components, Utils as FormioUtils } from 'formio-adports/formiojs';
+import { Components, Utils as FormioUtils } from 'formio-custom/formiojs';
 import { clone, isNil, isArray } from 'lodash';
 /** @type {?} */
 var BaseInputComponent = Components.components.input;

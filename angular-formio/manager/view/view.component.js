@@ -8,7 +8,7 @@ import { FormManagerConfig } from '../form-manager.config';
 import { FormManagerService } from '../form-manager.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormioAuthService } from '../../auth/auth.service';
-import { Formio } from 'formio-adports/formiojs';
+import { Formio } from 'formio-custom/formiojs';
 var FormManagerViewComponent = /** @class */ (function () {
     function FormManagerViewComponent(service, router, route, config, auth) {
         this.service = service;

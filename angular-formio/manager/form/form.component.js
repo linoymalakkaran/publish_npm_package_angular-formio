@@ -9,7 +9,7 @@ import { FormManagerConfig } from '../form-manager.config';
 import { ActivatedRoute } from '@angular/router';
 import { FormioAppConfig } from '../../formio.config';
 import { BsModalService } from 'ngx-bootstrap/modal';
-import { Formio } from 'formio-adports/formiojs';
+import { Formio } from 'formio-custom/formiojs';
 var FormManagerFormComponent = /** @class */ (function () {
     function FormManagerFormComponent(service, route, appConfig, options, modalService) {
         this.service = service;

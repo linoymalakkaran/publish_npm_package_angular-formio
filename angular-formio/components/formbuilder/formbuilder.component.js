@@ -5,7 +5,7 @@
  */
 import { Component, Input, ViewEncapsulation, Optional, ElementRef, ViewChild, EventEmitter, Output, NgZone } from '@angular/core';
 import { FormioAppConfig } from '../../formio.config';
-import { Formio, FormBuilder, Utils } from 'formio-adports/formiojs';
+import { Formio, FormBuilder, Utils } from 'formio-custom/formiojs';
 import { assign } from 'lodash';
 import { Observable } from 'rxjs';
 import { CustomTagsService } from '../../custom-component/custom-tags.service';
@@ -235,7 +235,6 @@ var FormBuilderComponent = /** @class */ (function () {
         }
         if (this.builder) {
             var $this_breadcrumbs = this;
-            debugger;
             return this.setDisplay(form.display).then((/**
              * @return {?}
              */
@@ -249,7 +248,6 @@ var FormBuilderComponent = /** @class */ (function () {
 
         // if (this.builder) {
         //     var $this_breadcrumbs = this;
-        //     debugger;
         //     return this.setDisplay(form.display).then((/**
         //      * @return {?}
         //      */

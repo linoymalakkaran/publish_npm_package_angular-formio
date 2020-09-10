@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('lodash'), require('formio-adports/formiojs'), require('@angular/common'), require('@angular/router'), require('rxjs'), require('formiojs/utils/Evaluator')) :
-    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', 'lodash', 'formio-adports/formiojs', '@angular/common', '@angular/router', 'rxjs', 'formiojs/utils/Evaluator'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('lodash'), require('formio-custom/formiojs'), require('@angular/common'), require('@angular/router'), require('rxjs'), require('formiojs/utils/Evaluator')) :
+    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', 'lodash', 'formio-custom/formiojs', '@angular/common', '@angular/router', 'rxjs', 'formiojs/utils/Evaluator'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['formio-auth'] = {}, global.core, global.lodash, global.formiojs, global.common, global.router, global.rxjs, global.Evaluator));
 }(this, (function (exports, core, lodash, formiojs, common, router, rxjs, Evaluator) { 'use strict';
 

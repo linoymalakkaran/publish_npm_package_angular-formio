@@ -7,7 +7,7 @@ import { EventEmitter, Injectable } from '@angular/core';
 import { FormioAuthConfig } from './auth.config';
 import { FormioAppConfig } from '../formio.config';
 import { get, each } from 'lodash';
-import { Formio } from 'formio-adports/formiojs';
+import { Formio } from 'formio-custom/formiojs';
 var FormioAuthService = /** @class */ (function () {
     function FormioAuthService(appConfig, config) {
         var _this = this;

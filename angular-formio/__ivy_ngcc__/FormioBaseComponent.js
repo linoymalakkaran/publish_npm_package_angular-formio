@@ -9,7 +9,7 @@ import { FormioAlerts } from './components/alerts/formio.alerts';
 import { FormioAppConfig } from './formio.config';
 import { assign, get, isEmpty } from 'lodash';
 import { CustomTagsService } from './custom-component/custom-tags.service';
-import Evaluator from 'formio-adports/formiojs/utils/Evaluator';
+import Evaluator from 'formio-custom/formiojs/utils/Evaluator';
 import { AlertsPosition } from './types/alerts-position';
 import * as ɵngcc0 from '@angular/core';
 

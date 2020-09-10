@@ -1,6 +1,6 @@
 import { FormioAppConfig } from '../formio.config';
 import { FormManagerConfig } from './form-manager.config';
-import { Formio } from 'formio-adports/formiojs';
+import { Formio } from 'formio-custom/formiojs';
 import { ActivatedRoute } from '@angular/router';
 import { FormioAuthService } from '../auth/auth.service';
 export declare class FormManagerService {

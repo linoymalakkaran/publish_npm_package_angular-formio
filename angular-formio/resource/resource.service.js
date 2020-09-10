@@ -10,7 +10,7 @@ import { FormioPromiseService } from '../formio-promise.service';
 import { FormioAlerts } from '../components/alerts/formio.alerts';
 import { FormioAppConfig } from '../formio.config';
 import Promise from 'native-promise-only';
-import { Formio, Utils } from 'formio-adports/formiojs';
+import { Formio, Utils } from 'formio-custom/formiojs';
 import _ from 'lodash';
 var FormioResourceService = /** @class */ (function () {
     function FormioResourceService(appConfig, config, resourcesService, appRef) {

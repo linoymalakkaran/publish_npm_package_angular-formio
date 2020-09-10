@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('formio-adports/formiojs'), require('@angular/router'), require('lodash'), require('formiojs/utils/Evaluator'), require('@angular/common'), require('@angular/elements')) :
-    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', 'rxjs', 'formio-adports/formiojs', '@angular/router', 'lodash', 'formiojs/utils/Evaluator', '@angular/common', '@angular/elements'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('formio-custom/formiojs'), require('@angular/router'), require('lodash'), require('formiojs/utils/Evaluator'), require('@angular/common'), require('@angular/elements')) :
+    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', 'rxjs', 'formio-custom/formiojs', '@angular/router', 'lodash', 'formiojs/utils/Evaluator', '@angular/common', '@angular/elements'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['angular-formio'] = {}, global.core, global.rxjs, global.formiojs, global.router, global.lodash, global.Evaluator, global.common, global.elements));
 }(this, (function (exports, core, rxjs, formiojs, router, lodash, Evaluator, common, elements) { 'use strict';
 

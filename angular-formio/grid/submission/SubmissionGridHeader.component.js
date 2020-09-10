@@ -17,7 +17,7 @@ var __extends = (this && this.__extends) || (function () {
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 import { Component } from '@angular/core';
-import { Utils, Components } from 'formio-adports/formiojs';
+import { Utils, Components } from 'formio-custom/formiojs';
 import { GridHeaderComponent } from '../GridHeaderComponent';
 var SubmissionGridHeaderComponent = /** @class */ (function (_super) {
     __extends(SubmissionGridHeaderComponent, _super);

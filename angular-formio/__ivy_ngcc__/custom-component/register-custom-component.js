@@ -4,7 +4,7 @@
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 import { createCustomElement } from '@angular/elements';
-import { Components } from 'formio-adports/formiojs';
+import { Components } from 'formio-custom/formiojs';
 import { createCustomFormioComponent } from './create-custom-component';
 import { CustomTagsService } from './custom-tags.service';
 /**

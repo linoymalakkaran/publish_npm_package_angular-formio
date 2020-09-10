@@ -1,4 +1,4 @@
-import { ExtendedComponentSchema } from 'formio-adports/formiojs';
+import { ExtendedComponentSchema } from 'formio-custom/formiojs';
 import { GridHeaderComponent } from '../GridHeaderComponent';
 import { FormioPromiseService } from '../../formio-promise.service';
 import { ComponentInstance } from '../../formio.common';

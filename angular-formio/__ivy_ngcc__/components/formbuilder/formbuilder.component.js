@@ -5,7 +5,7 @@
  */
 import { Component, Input, ViewEncapsulation, Optional, ElementRef, ViewChild, EventEmitter, Output, NgZone } from '@angular/core';
 import { FormioAppConfig } from '../../formio.config';
-import { Formio, FormBuilder, Utils } from 'formio-adports/formiojs';
+import { Formio, FormBuilder, Utils } from 'formio-custom/formiojs';
 import { assign } from 'lodash';
 import { Observable } from 'rxjs';
 import { CustomTagsService } from '../../custom-component/custom-tags.service';

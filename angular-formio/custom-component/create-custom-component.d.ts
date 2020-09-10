@@ -1,4 +1,4 @@
-import { BuilderInfo, ExtendedComponentSchema } from 'formio-adports/formiojs';
+import { BuilderInfo, ExtendedComponentSchema } from 'formio-custom/formiojs';
 import { FormioCustomComponentInfo, FormioCustomElement } from '../elements.common';
 export declare function createCustomFormioComponent(customComponentOptions: FormioCustomComponentInfo): {
     new (component: ExtendedComponentSchema<any>, options: any, data: any): {

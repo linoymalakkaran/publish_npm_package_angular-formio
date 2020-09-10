@@ -6,7 +6,7 @@
 import { Injectable } from '@angular/core';
 import { FormioAppConfig } from '../formio.config';
 import { FormManagerConfig } from './form-manager.config';
-import { Formio } from 'formio-adports/formiojs';
+import { Formio } from 'formio-custom/formiojs';
 import { FormioAuthService } from '../auth/auth.service';
 import _each from 'lodash/each';
 import _intersection from 'lodash/intersection';

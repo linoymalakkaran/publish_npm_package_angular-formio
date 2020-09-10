@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/forms'), require('@angular/router'), require('formio-adports/formiojs'), require('rxjs'), require('lodash'), require('formiojs/utils/Evaluator'), require('@angular/elements'), require('ngx-bootstrap/pagination')) :
-    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/forms', '@angular/router', 'formio-adports/formiojs', 'rxjs', 'lodash', 'formiojs/utils/Evaluator', '@angular/elements', 'ngx-bootstrap/pagination'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/forms'), require('@angular/router'), require('formio-custom/formiojs'), require('rxjs'), require('lodash'), require('formiojs/utils/Evaluator'), require('@angular/elements'), require('ngx-bootstrap/pagination')) :
+    typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/forms', '@angular/router', 'formio-custom/formiojs', 'rxjs', 'lodash', 'formiojs/utils/Evaluator', '@angular/elements', 'ngx-bootstrap/pagination'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global['formio-grid'] = {}, global.core, global.common, global.forms, global.router, global.formiojs, global.rxjs, global.lodash, global.Evaluator, null, global.pagination));
 }(this, (function (exports, core, common, forms, router, formiojs, rxjs, lodash, Evaluator, elements, pagination) { 'use strict';
 

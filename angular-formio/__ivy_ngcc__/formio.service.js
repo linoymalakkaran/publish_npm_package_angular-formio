@@ -4,7 +4,7 @@
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 import { Observable } from 'rxjs';
-import { Formio } from 'formio-adports/formiojs';
+import { Formio } from 'formio-custom/formiojs';
 var FormioService = /** @class */ (function () {
     function FormioService(url, options) {
         this.url = url;

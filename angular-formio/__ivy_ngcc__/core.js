@@ -14,4 +14,4 @@ export { FormioLoaderComponent } from './components/loader/formio.loader.compone
 export { FormioAlerts } from './components/alerts/formio.alerts';
 export { FormioAlertsComponent } from './components/alerts/formio.alerts.component';
 export { FormioModule } from './formio.module';
-export { Formio, Utils as FormioUtils, Templates, Components } from 'formio-adports/formiojs';
+export { Formio, Utils as FormioUtils, Templates, Components } from 'formio-custom/formiojs';

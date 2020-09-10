@@ -50,7 +50,7 @@ var __extends = (this && this.__extends) || (function () {
  */
 import { Component, Optional, ViewEncapsulation, NgZone } from '@angular/core';
 import { FormioAppConfig } from '../../formio.config';
-import { Formio, Form } from 'formio-adports/formiojs';
+import { Formio, Form } from 'formio-custom/formiojs';
 import { FormioBaseComponent } from '../../FormioBaseComponent';
 import { CustomTagsService } from '../../custom-component/custom-tags.service';
 /* tslint:disable */

@@ -1,6 +1,6 @@
-import { ExtendedComponentSchema, ValidateOptions } from 'formio-adports/formiojs';
+import { ExtendedComponentSchema, ValidateOptions } from 'formio-custom/formiojs';
 import { AlertsPosition } from './types/alerts-position';
-export { ConditionalOptions, ValidateOptions } from 'formio-adports/formiojs';
+export { ConditionalOptions, ValidateOptions } from 'formio-custom/formiojs';
 export interface ComponentOptions<T = any, V = ValidateOptions> extends ExtendedComponentSchema<T> {
     validate?: V;
 }

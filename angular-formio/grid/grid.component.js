@@ -7,7 +7,7 @@ import { GridFooterPositions } from './types/grid-footer-positions';
 import { ChangeDetectorRef, Component, ComponentFactoryResolver, EventEmitter, Input, Output, ViewChild, ViewContainerRef } from '@angular/core';
 import { FormioAlerts } from '../components/alerts/formio.alerts';
 import { each } from 'lodash';
-import { Formio } from 'formio-adports/formiojs';
+import { Formio } from 'formio-custom/formiojs';
 import FormComponents from './form/index';
 import SubmissionComponents from './submission/index';
 import { FormioPromiseService } from '../formio-promise.service';
