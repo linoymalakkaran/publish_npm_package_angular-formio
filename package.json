@@ -1,6 +1,6 @@
 {
-  "name": "angular-formio-adports",
-  "version": "1.0.4",
+  "name": "angular-formio-custom",
+  "version": "1.0.3",
   "description": "angular-formio-master-custom",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/linoymalakkaran/publish_npm_package_angular-formio.git"
   },
   "keywords": [
-    "key-word"
+    "angular-formio-custom-key-word"
   ],
   "author": "Linoy",
   "license": "ISC",
